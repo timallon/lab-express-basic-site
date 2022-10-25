@@ -1,4 +1,63 @@
-body {
-    color: blue;
-    background-color: bisque;
+@font-face {
+    font-family: "Cooper Black";
+    src: url("/fonts/cooper-black.otf");
   }
+  
+
+body {
+    background-color: #eedb62;
+  }
+  
+h1 {
+padding: 30px;
+background-color: #3a652c;
+font-size: 200px;
+font-family: "Cooper Black", serif;
+color: white;
+text-align: left;
+}
+
+h2 {
+padding: 15px;
+background-color: #3a652c;
+font-size: 100px;
+font-family: "Cooper Black", serif;
+color: white;
+text-align: left;
+}
+
+h3 {
+padding: 15px;
+background-color: #3a652c;
+font-size: 50px;
+font-family: "Cooper Black", serif;
+color: white;
+text-align: left;
+}
+
+p {
+padding: 15px;
+background-color: #eedb62;
+font-size: 80px;
+font-family: "Cooper Black", serif;
+    color: white;
+    text-align: left;
+  }
+  
+ul {
+padding: 15px;
+background-color: #eedb62;
+font-size: 80px;
+font-family: "Cooper Black", serif;
+    color: white;
+    text-align: left;
+    }
+
+img {
+max-width: 100%;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
